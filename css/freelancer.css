@@ -85,7 +85,7 @@ header {
     text-align: center;
     color: #000;
     background: #00BBFF;
-    text-shadow: -0.25em -0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF
+    text-shadow: -0.25em 0.25em 0.5em #00FFFF, 0.25em -0.25em 0.5em #00FFFF, 0.25em 0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF
 }
 
 header .container {

@@ -80,6 +80,10 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+.video-responsive {
+    max-height: 250%;
+    max-width: 100%;
+}
 
 header {
     text-align: center;

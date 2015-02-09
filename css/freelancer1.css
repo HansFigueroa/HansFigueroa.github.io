@@ -65,7 +65,6 @@ hr.star-light {
 
 hr.star-light:after {
     color: #000;
-    background-color: #00BBFF;
 }
 
 hr.star-primary {
@@ -80,33 +79,16 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-
-.delimitador{
-    margin-left: 3%;    /* Ancho máximo */
-    margin-right: 3%;   /* Centramos el vídeo */
-    position: relative;
+.video-responsive {
+    max-height: 100%;
+    max-width: 100%;
 }
-/* El contenedor con el padding-top crea el tamaño del vídeo */
-.contenedor{
-    height:0px;
-    width: 77.3%;
-    padding-top: 43%; /* Relación: 16/9 = 56.25% */
-    position:relative;
-}
-/* El iframe se adapta al tamaño del contenedor */
-.contenedor iframe{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0px;
-    left:0px;
-}
-
 
 header {
     text-align: center;
     color: #000;
-    background: #00BBFF;
+    background-image: url("../img/1.jpg");
+    background-position: center;
     text-shadow: -0.25em 0.25em 0.5em #00FFFF, 0.25em -0.25em 0.5em #00FFFF, 0.25em 0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF
 }
 

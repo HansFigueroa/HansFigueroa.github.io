@@ -9,12 +9,21 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 p.small {
     font-size: 16px;
 }
+
+p1 {
+    font-size: 1.2em;
+}
+
+p1.small {
+    font-size: 16px;
+}
+
 
 a,
 a:hover,
@@ -65,7 +74,6 @@ hr.star-light {
 
 hr.star-light:after {
     color: #000;
-    background-color: #00BBFF;
 }
 
 hr.star-primary {
@@ -80,17 +88,21 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+.video-responsive {
+    max-height: 100%;
+    max-width: 100%;
+}
 
 .delimitador{
-    margin-left: 3%;    /* Ancho máximo */
-    margin-right: 3%;   /* Centramos el vídeo */
+    margin-left: 0%;    /* Ancho máximo */
+    margin-right: 0%;   /* Centramos el vídeo */
     position: relative;
 }
 /* El contenedor con el padding-top crea el tamaño del vídeo */
 .contenedor{
     height:0px;
-    width: 77.3%;
-    padding-top: 43%; /* Relación: 16/9 = 56.25% */
+    width: 53.9%;
+    padding-top: 33%; /* Relación: 16/9 = 56.25% */
     position:relative;
 }
 /* El iframe se adapta al tamaño del contenedor */
@@ -102,11 +114,11 @@ hr.star-primary:after {
     left:0px;
 }
 
-
 header {
     text-align: center;
     color: #000;
-    background: #00BBFF;
+    background-image: url("../img/2.jpg");
+    background-position: center center;
     text-shadow: -0.25em 0.25em 0.5em #00FFFF, 0.25em -0.25em 0.5em #00FFFF, 0.25em 0.25em 0.5em #00FFFF, -0.25em -0.25em 0.5em #00FFFF
 }
 
@@ -211,8 +223,24 @@ section {
 }
 
 section h2 {
-    margin: 0;
-    font-size: 2.6em;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    text-shadow: -1px 1px 1px #00FFFF, 1px -1px 1px #00FFFF, 1px 1px 1px #00FFFF, -1px -1px 1px #00FFFF;
+
+}
+
+section h3 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+section h4 {
+    position: relative;
+    top: -20px;
+    margin-bottom: -5px;
+    font-size: 1.2em;
+    color: #00BBFF;
+ 
 }
 
 section.success {

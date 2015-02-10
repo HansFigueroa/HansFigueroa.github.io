@@ -240,8 +240,15 @@ section h4 {
     margin-bottom: -5px;
     font-size: 1.2em;
     color: #00BBFF;
- 
 }
+
+section h5 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 1.2em;
+    color: #00BBFF;
+    text-align: center;
+ }
 
 section.success {
     color: #000;

@@ -95,11 +95,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>En esta clase tocamos a fondo los diversas formas de diseño digital que existen hasta el momento. El diseño digital es realizado con ayuda de un computador, el producto realizado puede ser en 2D como en 3D, y existe una infinidad de programas para llevarlas a cabo. El fin de esta clase es que nosotros desarrollemos y nos familiarizemos con los programas usados para realizar diseños en mención, y se dejó como reto culminar 3 en 2D y 3 en 3D usando diferentes softwares sin repetir.
+                    <p><strong>En esta clase tocamos a fondo los diversas formas de diseño digital que existen hasta el momento. El diseño digital es realizado con ayuda de un computador, el producto realizado puede ser en 2D como en 3D, y existe una infinidad de programas para llevarlas a cabo. El fin de esta clase es que nosotros desarrollemos y nos familiarizemos con los programas usados para realizar diseños en mención, y se dejó como reto culminar 3 en 2D y 3 en 3D usando diferentes softwares sin repetir.</strong>
                     </p>
                     <h2>2D DESIGN</h2>
                     <br>
-                    <p>El diseño 2D por como dice su nombre, es aquel diseño hecho en 2 dimensiones, es decir en un plano xy. En este grupo entran las imágenes que diariamente vemos en internet con formatos .jpg, .png, entre otros, estas suelen "pixelearse" al aumentar sus medidas. También en este grupo entran los diseños CAD 2D (paramétricos), que se usan para que en un programa de diseño 3D se extruyan, es decir, darle una medida en el eje z para que así se forme un sólido. También están los gráficos vectoriales, que no pierden su resolución al aumentar sus medidas, estos suelen estar en formato .dxf, .svg y .vwg. Los softwares mayormente usados son: Photoshop, Ilustrator, Corel Draw, AutoCAD 2D e Inkscape. Cabe resaltar que muchos de los programas usados para realizar diseños en 3D, tienen su parte bidimensional, que es el origen de todo. <strong>A continuación me explayaré sobre los 3 diseños 2D que realizé y los respectivos softwares que usé:</strong></p>
+                    <br>
+                    <p>El diseño 2D por como dice su nombre, es aquel diseño hecho en 2 dimensiones, es decir, en un plano xy. En este grupo entran las imágenes que diariamente vemos en internet con formatos .jpg, .png, entre otros, estas suelen "pixelearse" al aumentar sus medidas. También en este grupo entran los diseños CAD 2D (paramétricos), que se usan para que en un programa de diseño 3D se extruyan, es decir, darle una medida en el eje z para que así se forme un sólido. También están los gráficos vectoriales, que no pierden su resolución al aumentar sus medidas, estos suelen estar en formato .dxf, .svg y .vwg. Los softwares mayormente usados son: Photoshop, Ilustrator, Corel Draw, AutoCAD 2D e Inkscape. Cabe resaltar que muchos de los programas usados para realizar diseños en 3D, tienen su parte bidimensional, que es el origen de todo. <strong>A continuación me explayaré sobre los 3 diseños 2D que realizé y los respectivos softwares que usé:</strong></p>
                     <hr></hr>
                     <br>
                     <h3>LOGO VECTORIZADO UTEC ACADEMY</h3>
@@ -116,6 +117,7 @@
                     <br><a href="https://www.dropbox.com/s/7lcacuabsug30mt/logo%20utec%20academy.3dm?dl=1" target="_blank">Logo-oficial-UTEC-Academy.3dm</a>
                     <br><a href="https://www.dropbox.com/s/cwmphxq39uuxxml/Logo%20Utec%20Academy.ai?dl=1" target="_blank">Logo-oficial-UTEC-Academy.ai</a>
                     <br><a href="https://www.dropbox.com/s/dcpri3wi0jfjk45/UTEC%20ACADEMY.psd?dl=1" target="_blank">Logo-oficial-UTEC-Academy.psd</a>
+                    <br>
                     <br>
                     <br>
                     <hr></hr>
@@ -136,6 +138,7 @@
                     <br><a href="https://www.dropbox.com/s/09nqy2q7djphocl/RealMadrid.dxf?dl=1" target="_blank">Escudo-RealMadrid.dxf</a>
                     <br>
                     <br>
+                    <br>
                     <hr></hr>
                     <br>
                     <h3>FRACTAL VECTORIZADA</h3>
@@ -145,7 +148,111 @@
                     <br>
                     <center><div class="delimitador">
                         <div class="contenedor">
+                    <iframe src="https://docs.google.com/a/utec.edu.pe/presentation/d/1IkcDsbvx4Jq5qwslEq7N8bU9CBg2MhA_YV_G9TZmQHM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    </div></center>
+                    <br><h5>Archivos</h5>
+                    <br><a href="https://www.dropbox.com/s/8zlzvflpllf5jdr/fractal.dxf?dl=1" target="_blank">Fractalvectorizada.dxf</a>
+                    <br><a href="https://www.dropbox.com/s/m5qipr1mv42591d/fractalcircle.pde?dl=1" target="_blank">Fractalvectorizada.pde</a>
+                    <br><a href="https://www.dropbox.com/s/pgfgwbmic7bpop5/fractalcircle1.3dm?dl=1" target="_blank">Fractalvectorizada.3dm</a>
+                    <br>
+                    <br>
+                    <pre align="left">
+<span style="color: #33997E;">import</span> processing.dxf.*;
+<span style="color: #E2661A;">boolean</span> grabar;
+<span style="color: #33997E;">void</span> <span style="color: #006699;"><b>setup</b></span>(){
+&nbsp;&nbsp;<span style="color: #006699;">size</span>(680,680,<span style="color: #718A62;">P3D</span>);
+&nbsp;&nbsp;<span style="color: #006699;">stroke</span>(0);
+&nbsp;&nbsp;<span style="color: #006699;">noFill</span>();
+}
+
+<span style="color: #33997E;">void</span> <span style="color: #006699;"><b>draw</b></span>(){
+&nbsp;&nbsp;<span style="color: #669900;">if</span>(grabar){
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">beginRaw</span>(<span style="color: #718A62;">DXF</span>, <span style="color: #7D4793;">&quot;C:/Users/HANFRA TECHNOLOGY/Desktop/UTEC ACADEMY/Dise&#241;o asistido por ordenador/2D/fractal.dxf&quot;</span>);
+&nbsp;&nbsp;}
+&nbsp;&nbsp;drawCircle(<span style="color: #D94A7A;">width</span>/2, <span style="color: #D94A7A;">height</span>/2,340); <span style="color: #666666;">// crea uncion</span>
+&nbsp;&nbsp;<span style="color: #669900;">if</span>(grabar){
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">endRaw</span>();
+&nbsp;&nbsp;&nbsp;&nbsp;grabar=<span style="color: #33997E;">false</span>;
+&nbsp;&nbsp;}
+}
+
+<span style="color: #33997E;">void</span> drawCircle(<span style="color: #E2661A;">int</span> x, <span style="color: #E2661A;">int</span> y, <span style="color: #E2661A;">int</span> radio){
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(x, y, radio, radio);
+&nbsp;&nbsp;<span style="color: #669900;">if</span>(radio&gt;10){
+&nbsp;&nbsp;&nbsp;&nbsp;drawCircle(x+radio/2,&nbsp;y,&nbsp;radio/2);
+&nbsp;&nbsp;&nbsp;&nbsp;drawCircle(x-radio/2,&nbsp;y,&nbsp;radio/2);
+&nbsp;&nbsp;&nbsp;&nbsp;drawCircle(x,&nbsp;y+radio/2,&nbsp;radio/2);
+&nbsp;&nbsp;&nbsp;&nbsp;drawCircle(x,&nbsp;y-radio/2,&nbsp;radio/2);
+&nbsp;&nbsp;}
+}
+
+<span style="color: #33997E;">void</span> <span style="color: #006699;"><b>keyPressed</b></span>(){
+&nbsp;&nbsp;<span style="color: #669900;">if</span>(<span style="color: #D94A7A;">key</span>==<span style="color: #7D4793;">&apos;g&apos;</span>){
+&nbsp;&nbsp;&nbsp;&nbsp;grabar=<span style="color: #33997E;">true</span>;
+&nbsp;&nbsp;}
+}
+</pre>
+                    <hr></hr>
+                    <br>
+                    <br>
+                    <h2>3D DESIGN</h2>
+                    <br>
+                    <br>
+                    <p>El diseño 3D por como dice su nombre, es aquel diseño hecho en 3 dimensiones, es decir, en un plano xyz. En este grupo entran los diseños 3D paramétricos (Inventor, Solidworks, Grasshopper), las mallas (Maya, Blender, Sculptris), los nurbs (Rhinoceros v5) y los vectoriales (Rhinoceros v5). Hay infinidad de softwares, pero el más completo es Rhinoceros v5 ya que puedes trabajar con mayas, con nurbs y hasta con diseño paramétrico solo si se usa el plug in de Grasshopper. Otros que mayormente se usan son los softwares CAD 3D que en su mayoría son de Autodesk y sirven más para simulación de mecanismos. Estos diseños al ser creados pueden mandarse a imprimir en una impresora 3D. Cada software tiene sus propios formatos, pero los que la mayoría lee son los formatos .obj, .stl y .ply. Hoy en dia los diseños 3D son muy comunes, y la impresión en 3D ya ha tomado lugar, por lo que es necesario ir familiarizandose con este nuevo sistema de fabricación. <strong>A continuación me explayaré sobre los 3 diseños 3D que realizé y los respectivos softwares que usé:</strong></p>
+                    <hr></hr>
+                    <br>
+                    <h3>RUEDA DE GINEBRA</h3>
+                    <h4>SolidWorks</h4>
+                    <p1>Solidworks es un programa de diseño 3D paramétrico, que nos permite cambiar fácilmente las dimensiones de lo que creamos, en sí es bastante intuitivo. Tiene opciones para realizar piezas, ensambles y planos 2D. También en él se puede renderizar y simular mecanismos (con sus errores respectivos). En esta ocación se diseñó y renderizó la rueda de Ginebra en 3D, con su respectiva simulación de funcionamiento.</p1>
+                    <br>
+                    <br>
+                    <center><div class="delimitador">
+                        <div class="contenedor">
+                    <iframe src="https://docs.google.com/a/utec.edu.pe/presentation/d/1DeBrl_jkCU1n5SO3kmZnBqJPmH7MU6nlkAXrmzA4Fbo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    </div></center>
+                    <br><h5>Archivos</h5>
+                    <br><a href="https://www.dropbox.com/s/zmw4xz75iyldjqs/Rueda%20de%20Ginebra.zip?dl=1" target="_blank">Rueda de Ginebra.zip</a>
+                    <br>
+                    <br>
+                    <center><div class="delimitador">
+                        <div class="contenedor">
+						<iframe src="http:////player.vimeo.com/video/119207415"></iframe>
+                        </div>
+                    </div></center>
+                    <br>
+                    <br>
+                    <br>
+                    <hr></hr>
+                    <br>
+                    <h3>ESCUDO VECTORIZADO DEL REAL MADRID</h3>
+                    <h4>Corel Draw X6</h4>
+                    <p1>Corel Draw también nos permite diseñar imágenes vectoriales como en Adobe Ilustrator. Además podemos darle colores fijos, coloreándolas como en photoshop o paint. Este programa puede importar y exportar documentos en más de 50 formatos diferentes (amazing!). Aca nuestra misión fue hacer el escudo del Real Madrid vectorizado en CorelDraw, pintarlo, exportarlo en formato .dxf y abrirlo en Rhinoceros v5 para comprobar si está vectorizado correctamente.</p1>
+                    <br>
+                    <br>
+                    <center><div class="delimitador">
+                        <div class="contenedor">
                     <iframe src="https://docs.google.com/a/utec.edu.pe/presentation/d/1XxJnMLkci34v-plhaOuAuHF-s98oCdMfzG3aRIVzyz0/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    </div></center>
+                    <br><h5>Archivos</h5>
+                    <br><a href="https://www.dropbox.com/s/m7u2xmlsgwuwez3/RealMadrid.3dm?dl=1" target="_blank">Escudo-RealMadrid.3dm</a>
+                    <br><a href="https://www.dropbox.com/s/9bdjxn3otea4b21/RealMadrid.cdr?dl=1" target="_blank">Escudo-RealMadrid.cdr</a>
+                    <br><a href="https://www.dropbox.com/s/09nqy2q7djphocl/RealMadrid.dxf?dl=1" target="_blank">Escudo-RealMadrid.dxf</a>
+                    <br>
+                    <br>
+                    <br>
+                    <hr></hr>
+                    <br>
+                    <h3>FRACTAL VECTORIZADA</h3>
+                    <h4>Processing</h4>
+                    <p1>Processing que es un programa que posee su propio lenguaje de programación donde se pueden realizar proyectos multimedia e interactivos de diseño digital. Está basado en Java. Lo que se hizo fue diseñar una fractal en este programa y exportarlo a algún lugar de nuestra computadora como una imagen vectorial para así poder, con la cortadora láser, grabarlo en algún material.</p1>
+                    <br>
+                    <br>
+                    <center><div class="delimitador">
+                        <div class="contenedor">
+                    <iframe src="https://docs.google.com/a/utec.edu.pe/presentation/d/1IkcDsbvx4Jq5qwslEq7N8bU9CBg2MhA_YV_G9TZmQHM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                     </div></center>
                     <br><h5>Archivos</h5>
@@ -174,6 +281,7 @@
                     <br>Aunque estudie ingeniería química, jamás he "arrugado" en aprender cosas que no son de mi carrera, es más, siento que al aprenderlas estoy ampliando mi visión en lo que es la ingeniería complementaria que hoy en día se requiere. Siempre estoy dispuesto a nuevos retos.
                     <br> El UTEC Academy significa mucho para mi, ya que siento que es una oportunidad que no puedo dejar pasar por el gran conocimiento que se está poniendo en juego, no estaría mal afirmar que la fabricación digital (que es impulsada por cursos como el "How to do almost everything" de la red de Fab Labs) está originando la 3era revolución industrial, y quién no quiere ser parte de eso. Al acabar este curso mis metas son poner en práctica lo aprendido y sobre todo complementarlo con mis conocimiento sobre la ingeniería en general.
                     </p>
+
             </div>
         </div>
     </section>

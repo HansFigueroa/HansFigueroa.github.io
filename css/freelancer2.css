@@ -85,9 +85,16 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr{
+    border-color: #00BBFF;
+    border-top: solid #00BBFF 2px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
+
+
 .video-responsive {
     max-height: 100%;
     max-width: 100%;
